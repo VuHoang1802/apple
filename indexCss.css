@@ -1,0 +1,226 @@
+/*Phần của Dev Neo
+Link: https://www.facebook.com/DevNeo1802;
+*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: roboto;
+	font-size: 10px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.colorOrangs{
+	color: #ffa421;
+}
+.colorWhite{
+	color: white;
+}
+.colorGray{
+	color: #3f3f47;
+}
+.active{
+	color: #ffa421;
+}
+.bg{
+	height: 100vh;
+	background: #000 url("source/bg.jpg");
+}
+.container{
+	width: 85%;
+	margin: 0px auto;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 33px;
+	padding-bottom: 20px;
+}
+.logo{
+	width: 9%;
+}
+.TextMenu{
+	width: 64.5%;
+}
+.TextMenu ul{
+	display: flex;
+	flex-direction: row;
+}
+.TextMenu ul li{
+	width: 70px;
+	font-size: 10px;
+}
+.FunsMenu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 27.5%;
+}
+.Funs{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.Funs label{
+	margin-right: 8px;
+}
+.Funs img{
+	padding: 0px 8px;
+}
+
+.Funs label{
+	font-size: 10px;
+	background-color: #ffa421;
+	border-radius: 50%;
+	padding: 3px 6px;
+	box-shadow: 1px 1px 20px rgba(255,164,33,0.95);
+}
+.numberFuns{
+
+}
+.search{
+	border-left: 1px solid #ddd;
+	padding: 3px 10px;
+}
+.content{
+	height: 70%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.content .social{
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+	height: 20%;
+}
+.content .color{
+	display: flex;
+	flex-direction: column;
+	height: 9%;
+	justify-content: space-between;
+}
+.content .color div{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: white;
+}
+.product{
+	width: 80%;
+}
+.imgProduct{
+
+}
+canvas{
+	margin: 0px auto;
+
+	display: block;
+}
+.imgProduct img{
+	margin: 0px auto;
+	display: block;
+}
+.imgProduct div{
+
+	margin: 0px auto;
+	display: block;
+}
+.title{
+	position: relative;
+	margin-top: 30px;
+}
+.title::before{
+	content: "APPLE";
+	position: absolute;
+	top: -60px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 200px;
+	text-align: center;
+	font-weight: 800;
+	color: #2e2e3a;
+	opacity: 0;
+}
+.title:hover::before{
+	opacity: 1;
+}
+.title h3{
+	font-size: 50px;
+	text-align: center;
+	font-weight: 400;
+	position: relative;
+}
+.title span{
+	font-size: 50px;
+	font-weight: 400;
+}
+.title i{
+	font-size: 20px;
+	transform: rotate(80deg);
+}
+.title .price{
+	font-size: 30px;
+}
+.gach{
+	position: relative;
+}
+.gach::before{
+	content: "";
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	top: 50%;
+	left:0;
+	transform: translateY(-50%);
+	background-color: #3f3f47;
+	border-top: 2px solid #24242f;
+	border-bottom: 2px solid #24242f;
+}
+
+
+.linkwatch{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.next-prev{
+	display: flex;
+	flex-direction: row;
+	width: 50px;
+	justify-content: space-between;
+}
+.next-prev button{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	outline: none;
+	border: none;
+	transition: 400ms;
+	background-color: transparent;
+}
+.next-prev button:hover{
+	background-color: #f29d22;
+	box-shadow: 1px 1px 20px rgba(255,164,33,0.95);
+}
+.next-prev i{
+	color: white;
+	
+}
+
+.next-prev .left{
+	transform: rotate(180deg);
+}
+.text-move span{
+	color: white;
+	font-size: 20px;
+}
